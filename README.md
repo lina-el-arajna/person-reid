@@ -189,22 +189,13 @@ Full list in `pyproject.toml`.
 
 ## Report
 
-A full research paper detailing this project is available in the [`report/`](report/) folder as a LaTeX document ([`report/report.tex`](report/report.tex)). It covers in depth:
+A full research paper detailing this project is available in the [`report/`](report/) folder. It covers in depth:
 
 - Related work and state-of-the-art comparison
 - Formal problem formulation and full architectural description (APN, APAN, IQA branch)
 - Dataset, preprocessing, and data augmentation details
 - Two-stage training strategy and all loss functions
 - Experimental results, ablation study, and qualitative analysis
-
-To compile the report:
-```bash
-cd report
-pdflatex report.tex
-bibtex report
-pdflatex report.tex
-pdflatex report.tex
-```
 
 ---
 
