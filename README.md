@@ -105,7 +105,7 @@ Given a query image $I$, 34 perturbed variants are generated, covering:
 
 The identifiability score is the mean pairwise Euclidean distance across the 35 resulting feature vectors (original + 34 perturbations):
 
-$$Q(I) = \frac{2}{N(N-1)} \sum_{i<j} d\bigl(F(I)_i,\, F(I)_j\bigr), \quad N=35$$
+$$Q(I) = \frac{2}{N(N-1)} \sum_{i < j} d(F(I)_i, F(I)_j), \quad N \ge 35$$
 
 A lightweight MLP (1→32→1 + Sigmoid) maps $Q(I)$ to $\alpha \in [0,1]$.
 
